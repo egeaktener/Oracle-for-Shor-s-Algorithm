@@ -12,7 +12,7 @@ $$
 
 where $n=\lceil \log_{2}(N) \rceil$.
 
-This gate forms the core component of the quantum subroutine of **Shor's factorization algorithm**. Specifically, it acts as the unitary operator $U_a$ used in the Quantum Phase Estimation (QPE) procedure to determine the order of $a \bmod N$, which is the necessary quantum step to factor integers efficiently.
+This gate forms the core component of the quantum subroutine of **Shor's factorization algorithm**. Specifically, it acts as the unitary operator $U_a$ used in the Quantum Phase Estimation procedure to determine the order of $a \bmod N$, which is the necessary quantum step to factor integers efficiently.
 
 ## Reference
 The quantum circuit constructed in this project is based on the paper:
